@@ -20,7 +20,8 @@ If you have any questions, please feel free to ask me at [@blogoklahoma@social.t
 - 06/23/2023 03:30 PM: Posted on Github first part of Javascript code.  (See Javascript version working at [blogoklahoma.com/weather](https://blogoklahoma.com/weather))
 - 06/30/2023 09:00 AM: Started Node.js version of code.  
 - 07/05/2023 03:27 PM: Posted the latest update of the code. I rewrote it from the previous version. I converted some functions to use Promises. It is running but can be improved on.  I want the Mastodon posting to happen within the processing loop and not asynchronously.
-- 07/06/2023 8:11 AM: Moved code from [blogoklahoma/Rabbit Hole/WxAlerts-Node](https://github.com/programwitch/blogoklahoma/tree/main/Rabbit%20Hole%20/WxAlerts-Node) to here. 
+- 07/06/2023 8:11 AM: Moved code from [blogoklahoma/Rabbit Hole/WxAlerts-Node](https://github.com/programwitch/blogoklahoma/tree/main/Rabbit%20Hole%20/WxAlerts-Node) to here.
+- 07/06/2023 8:30 AM: Ran a full test overnight.  Worked really well.  And just by chance we had rapidly moving thunderstorms cross the state all night. Ha! Flooded my feed with #okwx updates.   
 
 ## Config
 To configure, edit the config.json file.  Any changes to this file will require a restart of the app.
