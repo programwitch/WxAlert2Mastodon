@@ -1,0 +1,43 @@
+{
+    "Wx": {
+        "apiUse" : "area",
+        "apiAlertsArea": "https://api.weather.gov/alerts/active/area/",
+        "state": "OK",
+        "apiAlertsZone": "https://api.weather.gov/alerts/active/zone/",
+        "zone": "OKZ021",
+        "regions": [
+            {
+                "nwsName":"NWS Norman OK",
+                "nwsUrl": "https://www.weather.gov/oun/",
+                "shortName": "NWS Norman",
+                "note": "NWS Norman OK covers Western Oklahoma"
+            },           
+            {
+                "nwsName":"NWS Tulsa OK",
+                "nwsUrl": "https://www.weather.gov/tsa/",
+                "shortName": "NWS Tulsa",
+                "note": "NWS Tulsa OK covers Eastern Oklahoma"
+            },           
+            {
+                "nwsName":"NWS Shreveport LA",
+                "nwsUrl": "https://www.weather.gov/shv/",
+                "shortName": "NWS Shreveport",
+                "note": "NWS Shreveport LA covers far Southeastern Oklahoma"
+            },           
+            {
+                "nwsName":"NWS Amarillo TX",
+                "nwsUrl": "https://www.weather.gov/ama/",
+                "shortName": "NWS Amarillo",
+                "note": "NWS Amarillo TX covers the Oklahoma Panhandle"
+            }
+        ]
+    },
+    "Mastodon": {
+        "apiPost": "/api/v1/statuses",
+        "url": "https://social.tulsa.ok.us",
+        "token": "(Your Mastodon Token)",
+        "postSize": 500,
+        "postLead": "#okwx ",
+        "posting" : "on"
+    }
+}
