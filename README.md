@@ -6,14 +6,19 @@ This is one of my rabbit hole projects, meaning I was just curious if I could ma
 
 If you have any questions, please feel free to ask me at [@blogoklahoma@social.tulsa.ok.us](https://social.tulsa.ok.us/@blogoklahoma).  
 
-[National Weather Service API](https://www.weather.gov/documentation/services-web-api)
+## Using
+
+- [Node.js](https://nodejs.org/en)
+- [National Weather Service API](https://www.weather.gov/documentation/services-web-api)
+- [Mastodon API](https://docs.joinmastodon.org/api/)
 
 ## Log
 - 06/23/2023 10:32 AM: [Idea on Mastodon](https://social.tulsa.ok.us/@blogoklahoma/110594250928009474)
 - 06/23/2023 01:00 PM: Started research and first code to display weather alerts from NWS API
 - 06/23/2023 03:30 PM: Posted on Github first part of Javascript code.  (See Javascript version working at [blogoklahoma.com/weather](https://blogoklahoma.com/weather))
 - 06/30/2023 09:00 AM: Started Node.js version of code.  
-- 07/05/2023 03:27 PM: Posted the latest update of the code. I rewrote it from the previous version. I converted some functions to use Promises. It is running but can be improved on.  I want the Mastodon posting to happen within the processing loop and not asynchronously. - K.
+- 07/05/2023 03:27 PM: Posted the latest update of the code. I rewrote it from the previous version. I converted some functions to use Promises. It is running but can be improved on.  I want the Mastodon posting to happen within the processing loop and not asynchronously.
+- 07/06/2023 8:11 AM: Moved code from [blogoklahoma/Rabbit Hole /WxAlerts-Node](https://github.com/programwitch/blogoklahoma/tree/main/Rabbit%20Hole%20/WxAlerts-Node) to here. 
 
 ## Config
 To configure, edit the config.json file.  Any changes to this file will require a restart of the app.
