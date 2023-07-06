@@ -1,2 +1,2 @@
 # WxAlert2Mastodon
-Watch posts new NWS API alerts to Mastodon
+Posts new NWS API alerts to Mastodon
