@@ -59,7 +59,7 @@ function postMastodon(post) {
         })
             .then(resp => resp.json())
             .then(json => { resolve(json) })
-            .catch(err => { resolve(err) })
+            .catch(err => { reject(err) })
     })
     return p
 }
