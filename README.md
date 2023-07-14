@@ -32,9 +32,9 @@ To configure, edit the **config.json** file.  Any changes to this file will requ
     - **Wx.regions[].note** is a note space for you.  I used it to denote coverage area, (Example: NWS Norman OK covers Western Oklahoma)
  
 - **Mastodon.url** is your instance's address (Example: https://social.tulsa.ok.us, https://mastodon.social)
-- **Mastodon.token** is your access token.  You can get this from the Preferences/Development. click the New Application button to get it.  Friendly reminder: Don't share it.
+- **Mastodon.token** is your access token.  You can get this from the Preferences/Development page. click the New Application button to get it.  Friendly reminder: Don't share it.
 - **Mastodon.postSize** is your post limit.  I believe the default is 500 characters, but your instance may set it larger.  The limit should be visible in the bottom corner of the post form. 
-- **Mastodon.postLead** is your post leader (front of post).  I set mine to our state's weather hashtag (#okwx).  Note: State + "WX" has been accepted as the standard weather hastag.
+- **Mastodon.postLead** is your post leader (front of post).  I set mine to our state's weather hashtag (#okwx).  Note: State + "WX" has been accepted as the standard weather hashtag.
 - **Mastodon.posting** lets you turn off Mastodon posting.  You can use this if you want to test all your Wx settings before sending to Mastodon.
 
  
